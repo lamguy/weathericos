@@ -4,6 +4,8 @@ require 'bundler/capistrano'
 default_run_options[:pty] = true  # Must be set for the password prompt
                                   # from git to work
 
+set :rvm_type, :system 
+
 set :user, 'lamguy'
 set :domain, 'lamguy.com'
 set :use_sudo, false 
@@ -11,8 +13,6 @@ set :use_sudo, false
 set :application, "weathericos"
 set :deploy_to, "/var/www/vhosts/lamguy.com/subdomains/weathericos.lamguy.com/"
 set :deploy_via, :remote_cache
-
-set :rvm_path, "/usr/local/rvm/gems/ruby-2.0.0-p247@global"
 
 set :scm, 'git'
 set :repository,  "git@github.com:madebylam/weathericos.git"
