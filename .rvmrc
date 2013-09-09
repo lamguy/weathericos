@@ -61,4 +61,4 @@ fi
 #   bundle install | GREP_OPTIONS="" \grep -vE '^Using|Your bundle is complete'
 # fi
 
-rvm use ruby-2.0.0-p247@weathericos
+#rvm use ruby-2.0.0-p247@weathericos
