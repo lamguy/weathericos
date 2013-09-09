@@ -11,7 +11,7 @@ set :domain, 'lamguy.com'
 set :use_sudo, false 
 
 set :application, "weathericos"
-set :deploy_to, "/var/www/vhosts/lamguy.com/subdomains/weathericos.lamguy.com/"
+set :deploy_to, "/var/www/vhosts/lamguy.com/subdomains/weathericos.lamguy.com/rails/"
 set :deploy_via, :remote_cache
 
 set :scm, 'git'
