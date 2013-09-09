@@ -12,6 +12,8 @@ set :application, "weathericos"
 set :deploy_to, "/var/www/vhosts/lamguy.com/subdomains/weathericos.lamguy.com/"
 set :deploy_via, :remote_cache
 
+set :rvm_path, "/usr/local/rvm/gems/ruby-2.0.0-p247@global"
+
 set :scm, 'git'
 set :repository,  "git@github.com:madebylam/weathericos.git"
 set :ssh_options, { :forward_agent => true }
