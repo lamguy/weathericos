@@ -1,0 +1,13 @@
+<%= semantic_form_for @payment_notification do |f| %>
+  <%= f.inputs do %>
+    <%= f.input :user %>
+    <%= f.input :params %>
+    <%= f.input :status %>
+    <%= f.input :transaction_id %>
+    <%= f.input :create %>
+  <% end %>
+
+  <%= f.actions do %>
+    <%= f.action :submit, :as => :input %>
+  <% end %>
+<% end %>

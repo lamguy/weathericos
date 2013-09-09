@@ -1,0 +1,139 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	color: #ffffff;
+	background: #408fe7 url('/assets/bg.png') center center;
+	padding-top: 23px;
+}
+
+a:link, a:visited {
+	color: #ffda2f;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	color: #eac51a;
+	text-decoration: underline;
+}
+
+.icon {
+	font-family: "weather_typesregular", Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: "Dosis", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+.btn-default {
+	background: #292929;
+	border: none;
+	color: #ffffff;
+	font-family: "Dosis", "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	padding: 20px 45px;
+	&:link, &:visited {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	&:hover, &:active {
+		color: #292929;
+		text-decoration: none;
+	}
+}
+
+.container {
+	top: 48px;
+	position: relative;
+}
+
+header h1 {
+	font-size: 38px;
+	padding-top: 10px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.jumbotron {
+	font-size: 21px;
+	font-weight: 200;
+	line-height: 2.1428571435;
+	color: inherit;
+	background: transparent;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0 !important;
+
+    .lead {
+		&.icon{
+			font-size: 450px;
+			line-height: 250px;
+		}
+	}
+	.btn {
+		margin: 0 auto;
+	}
+}
+
+.row.icons {
+	position: relative;
+	.col-lg-1 {
+		width: 106px;
+		height: 106px;
+		display: block;
+		/*border-top: 1px solid rgba(83,154,233,1);
+		border-left: 1px solid rgba(83,154,233,1);*/
+
+		span.icon {
+			color: rgba(255, 255, 255, 0.2);
+			font-size: 55px;
+			line-height: 106px;
+			display: block;
+			text-align: center;
+		}
+	}
+	.col-lg-5 {
+		width: 530px;
+		height: 106px;
+		/*border-top: 1px solid rgba(83,154,233,1);
+		border-left: 1px solid rgba(83,154,233,1);*/
+		&.cta {
+			height: 424px;
+			.icon {
+				margin-top: 30px;
+			}
+			.btn {
+				margin-top: 5px;
+				padding-left: 60px;
+				padding-right: 60px;
+			}
+		}
+	}
+}
+
+footer {
+	font-size: 12px;
+	padding-left: 113px;
+	h4 {
+		font-family: "Dosis", "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 0.2em;
+	}
+	span.creative-commons {
+		font-size: 52px;
+		display: block;
+		position: absolute;
+		left: 10px;
+		top: 18px;
+	}
+}
