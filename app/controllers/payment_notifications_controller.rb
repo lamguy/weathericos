@@ -52,7 +52,6 @@ class PaymentNotificationsController < ApplicationController
     if @user.save
       @notification.user = @user
       @notification.save
-      @user.send_confirmation_instructions
     end
 
     render :nothing => true
