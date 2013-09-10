@@ -5,6 +5,7 @@ default_run_options[:pty] = true  # Must be set for the password prompt
                                   # from git to work
 
 set :rvm_type, :system 
+set :rails_env, 'development'
 
 set :user, 'lamguy'
 set :domain, 'lamguy.com'
