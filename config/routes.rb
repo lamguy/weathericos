@@ -5,6 +5,7 @@ Weathericos::Application.routes.draw do
   match "download", :to => "downloads#index", :via => :get
   get "downloads/free"
   get "downloads/pro"
+  post "downloads/pro", :to => "downloads/verify"
   resources :items
 
   get "home/index"
