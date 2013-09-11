@@ -40,7 +40,7 @@ class PaymentNotificationsController < ApplicationController
 
     @notification = PaymentNotification.new
     @notification.transaction_id  = params[:ipn_track_id]
-    @notification.params          = params
+    @notification.params          = params.to_s
     @notification.status          = params[:payment_status]
 
     @custom = Base64.decode64(params[:custom])
