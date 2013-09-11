@@ -5,7 +5,7 @@ module RegistrationsHelper
 			:ip					=> request.remote_ip,
 			:cmd				=> '_s-xclick',
 			:hosted_button_id	=> (Rails.env == "production" ? "" : "82FDSTVL8CVML" ),
-			:return_url			=> root_url,
+			:return				=> root_url,
 			:cancel_return		=> root_url,
 			:notify_url			=> payment_notifications_url,
 			:allow_note			=> false,
