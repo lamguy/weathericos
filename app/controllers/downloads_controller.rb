@@ -21,8 +21,7 @@ class DownloadsController < ApplicationController
       raise ArgumentError.new("Something went wrong, please contact adminstrator!")
     end
 
-    sign_in(@user, bypass: true)
-    redirect_to downloads_pro_url
+    sign_in @user, :event => :authentication
 
   end
 
