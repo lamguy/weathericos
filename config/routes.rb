@@ -3,9 +3,9 @@ Weathericos::Application.routes.draw do
 
   devise_for :users, :controllers => { :registrations => "registrations" }
   match "download", :to => "downloads#index", :via => :get
+  match "downloads/pro", :to => "downloads#index", :via => :post
   get "downloads/free"
   get "downloads/pro"
-  post "downloads/pro", :to => "downloads/verify"
   resources :items
 
   get "home/index"
