@@ -1,7 +1,11 @@
 class DownloadsController < ApplicationController
 	before_filter :authenticate_user!, :except => [:index, :free, :verify]
+
   def index
-  	
+  	respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def free
