@@ -10,7 +10,7 @@ development:
   database: weathericos_dev
   username: weathericos
   password: yeuninhattrendoi
-  shost: localhost
+  host: lamguy.com
   pool: 5
   timeout: 5000
 
