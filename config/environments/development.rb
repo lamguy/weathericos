@@ -33,6 +33,6 @@ Weathericos::Application.configure do
   # Precompile additional assets
   config.assets.precompile += %w(.svg .eot .woff .ttf)
 
-  config.action_mailer.default_url_options = { :host => 'weathericos.lamguy.com' }
+  config.action_mailer.default_url_options = { :host => 'http://localhost:3000' }
 
 end
