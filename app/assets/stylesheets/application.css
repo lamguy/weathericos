@@ -10,7 +10,14 @@
  *
  *= require_self
  *= require twitter/bootstrap
+ *= require bootstrap-modal
+ *= require bootstrap-modal-bs3patch
  *= require custom_bootstrap/custom_bootstrap
  *= require formtastic
- *= require_tree .
+ *= require fonts
+ *= require home
+ *= require downloads
+ *= require registrations
+ *= require items
+ *= require payment_notifications
  */

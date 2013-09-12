@@ -14,7 +14,15 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require twitter/bootstrap
-//= require_tree .
+//= require bootstrap-modal
+//= require bootstrap-modalmanager
+//= require masonry
+//= require home
+//= require downloads
+//= require registrations
+//= require items
+//= require payment_notifications
+
 $(document).ready(function() {
 
 	var container = document.querySelector('.icons');
