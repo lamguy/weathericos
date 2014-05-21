@@ -14,8 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require twitter/bootstrap
-//= require bootstrap-modal
-//= require bootstrap-modalmanager
 //= require masonry
 //= require home
 //= require downloads

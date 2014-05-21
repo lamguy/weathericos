@@ -10,8 +10,6 @@
  *
  *= require_self
  *= require twitter/bootstrap
- *= require bootstrap-modal
- *= require bootstrap-modal-bs3patch
  *= require custom_bootstrap/custom_bootstrap
  *= require formtastic
  *= require fonts
